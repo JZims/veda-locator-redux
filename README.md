@@ -1,0 +1,1 @@
+# Veda Store Locator Widget
