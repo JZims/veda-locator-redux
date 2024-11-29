@@ -1,42 +1,93 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.locations-sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  overflow-y: auto;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.location-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.location-item {
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 
-.card {
-  padding: 2em;
+.location-item:hover {
+  background-color: #eee;
 }
 
-.read-the-docs {
-  color: #888;
+.location-item.active {
+  background-color: #e3f2fd;
+}
+
+.location-item h3 {
+  margin: 0 0 8px 0;
+}
+
+.location-item p {
+  margin: 0;
+  color: #666;
+}
+
+.map-container {
+  flex: 1;
+}
+
+.waypoint-button {
+  margin-top: 8px;
+  padding: 4px 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.waypoint-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.clear-waypoints {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.clear-waypoints:hover {
+  background-color: #d32f2f;
+}
+
+tooltip-content {
+  padding: 8px;
+  max-width: 200px;
+}
+
+.tooltip-content h4 {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+}
+
+.tooltip-content p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
 }
