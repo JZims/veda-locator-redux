@@ -1,7 +1,8 @@
 // App.tsx
 import { useState } from 'react';
-import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker, InfoWindow,  } from '@react-google-maps/api';
 import './App.css';
+
 
 // Sample location data
 const locations = [
