@@ -1,0 +1,589 @@
+{
+  "locations": [
+    {
+      "name": "Wine Stop",
+      "address": "30-08 Broadway, Queens, NY 11106",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.762049,
+        "lng": -73.9258988
+      }
+    },
+    {
+      "name": "The East Pole",
+      "address": "133 E 65th St, New York, NY 10065",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7664209,
+        "lng": -73.9656294
+      }
+    },
+    {
+      "name": "Adega Wine & Spirits",
+      "address": "31-25 Ditmars Blvd, Astoria, NY 11105",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7756278,
+        "lng": -73.9096972
+      }
+    },
+    {
+      "name": "Alice",
+      "address": "126 W 13th St, New York, NY 10011",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7370176,
+        "lng": -73.9986949
+      }
+    },
+    {
+      "name": "Amelie",
+      "address": "22 W 8th St, New York, NY 10011",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7326534,
+        "lng": -73.99767849999999
+      }
+    },
+    {
+      "name": "Angel’s Share",
+      "address": "45 Grove St, New York, NY 10014",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7329799,
+        "lng": -74.00425940000001
+      }
+    },
+    {
+      "name": "Archive Wine & Spirits",
+      "address": "270 Greenwich St, New York, NY 10007",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.71553410000001,
+        "lng": -74.0120518
+      }
+    },
+    {
+      "name": "Astoria Wines and Spirits",
+      "address": "34-12 Broadway, Astoria, NY 11106",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7604785,
+        "lng": -73.9227167
+      }
+    },
+    {
+      "name": "Bangkok Supper Club",
+      "address": "641 Hudson St, New York, NY 10014",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7390436,
+        "lng": -74.0057516
+      }
+    },
+    {
+      "name": "Banks Tavern",
+      "address": "19 Greenpoint Ave, Brooklyn, NY 11222",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7298597,
+        "lng": -73.9600052
+      }
+    },
+    {
+      "name": "Bed-Vyne Brew",
+      "address": "370 Tompkins Ave, Brooklyn, NY 11216",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.6847986,
+        "lng": -73.9444869
+      }
+    },
+    {
+      "name": "Bed-Vyne Wine",
+      "address": "385 Tompkins Ave, Brooklyn, NY 11216",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.6843855,
+        "lng": -73.94394980000001
+      }
+    },
+    {
+      "name": "Bedford Wines and Spirits",
+      "address": "101 Bedford Ave, Brooklyn, NY 11211",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7202275,
+        "lng": -73.9543367
+      }
+    },
+    {
+      "name": "Blue Slip",
+      "address": "1122 Manhattan Ave, Brooklyn, NY 11222",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7368582,
+        "lng": -73.9551281
+      }
+    },
+    {
+      "name": "Bowery Hotel",
+      "address": "335 Bowery, New York, NY 10003",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7260151,
+        "lng": -73.9914737
+      }
+    },
+    {
+      "name": "Cabrini Wines & Spirits",
+      "address": "91 Pinehurst Ave, New York, NY 10033",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.8507938,
+        "lng": -73.93922680000001
+      }
+    },
+    {
+      "name": "Canal’s - Glassborough",
+      "address": "1299 Delsea Dr, Glassboro, NJ 08028",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 39.7273946,
+        "lng": -75.11643400000001
+      }
+    },
+    {
+      "name": "Canal’s Discount Liquor Mart",
+      "address": "4212 Black Horse Pike # 1, Mays Landing, NJ 08330",
+      "type": "retail",
+      "coordinates": {
+        "lat": 39.4434646,
+        "lng": -74.6264152
+      }
+    },
+    {
+      "name": "Chelsea Wine & Liquors",
+      "address": "557 W 23rd St, New York, NY 10011",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7487644,
+        "lng": -74.0062427
+      }
+    },
+    {
+      "name": "Cocktail Bedstuy",
+      "address": "305 Halsey St #2411, Brooklyn, NY 11216",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.6830349,
+        "lng": -73.94062459999999
+      }
+    },
+    {
+      "name": "Cool Wine & Spirits",
+      "address": "375b Canal St, New York, NY 10013",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7214449,
+        "lng": -74.00435329999999
+      }
+    },
+    {
+      "name": "Cronin and Phelan",
+      "address": "38-14 Broadway, Astoria, NY 11103",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.75896760000001,
+        "lng": -73.9193791
+      }
+    },
+    {
+      "name": "Duke’s Liquor Box",
+      "address": "114 Franklin St, Brooklyn, NY 11222",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7286664,
+        "lng": -73.95719489999999
+      }
+    },
+    {
+      "name": "Eulalie",
+      "address": "239 W Broadway, New York, NY 10013",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7195959,
+        "lng": -74.0058328
+      }
+    },
+    {
+      "name": "Gemma",
+      "address": "335 Bowery, New York, NY 10003",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7260151,
+        "lng": -73.9914737
+      }
+    },
+    {
+      "name": "Gowanus Wine Merchants",
+      "address": "493 3rd Ave, Brooklyn, NY 11215",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.6702417,
+        "lng": -73.9917607
+      }
+    },
+    {
+      "name": "Greywind",
+      "address": "451 10th Ave, New York, NY 10018",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7557505,
+        "lng": -73.9986545
+      }
+    },
+    {
+      "name": "Jin Brothers",
+      "address": "51-03 Skillman Ave, Woodside, NY 11377",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.746134,
+        "lng": -73.91324329999999
+      }
+    },
+    {
+      "name": "Kings co Imperial Brooklyn",
+      "address": "20 Skillman Ave, Brooklyn, NY 11211",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7151918,
+        "lng": -73.9509992
+      }
+    },
+    {
+      "name": "Leland Eating and Drinking House",
+      "address": "755 Dean St, Brooklyn, NY 11238",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.679822,
+        "lng": -73.9651189
+      }
+    },
+    {
+      "name": "Loring Place",
+      "address": "21 W 8th St, New York, NY 10011",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7329145,
+        "lng": -73.9975914
+      }
+    },
+    {
+      "name": "Luana’s Tavern",
+      "address": "449 Court St, Brooklyn, NY 11231",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.6776281,
+        "lng": -73.9979311
+      }
+    },
+    {
+      "name": "Martiny’s",
+      "address": "121 E 17th St, New York, NY 10003",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7361454,
+        "lng": -73.9876975
+      }
+    },
+    {
+      "name": "Mister Wright ",
+      "address": "1593 3rd Ave, New York, NY 10128",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.78086570000001,
+        "lng": -73.95202239999999
+      }
+    },
+    {
+      "name": "Mr. Melo",
+      "address": "61 Withers St, Brooklyn, NY 11211",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.71699,
+        "lng": -73.9501026
+      }
+    },
+    {
+      "name": "Off the Vine",
+      "address": "4421 30th Ave., Astoria, NY 11103",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.76225900000001,
+        "lng": -73.910951
+      }
+    },
+    {
+      "name": "One Fifth",
+      "address": "1 5th Ave, New York, NY 10003",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7316673,
+        "lng": -73.996478
+      }
+    },
+    {
+      "name": "Passion Vines",
+      "address": "013 Ocean Heights Ave, Egg Harbor Township, NJ 08234",
+      "type": "retail",
+      "coordinates": {
+        "lat": 39.3870238,
+        "lng": -74.6362437
+      }
+    },
+    {
+      "name": "Peasant",
+      "address": "194 Elizabeth St, New York, NY 10012",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7217196,
+        "lng": -73.9943095
+      }
+    },
+    {
+      "name": "Pecoraro Latteria",
+      "address": "636 Metropolitan Ave, Brooklyn, NY 11211",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7140261,
+        "lng": -73.9478532
+      }
+    },
+    {
+      "name": "Pound Ridge Wine",
+      "address": "71 Westchester Ave, Pound Ridge, NY 10576",
+      "type": "retail",
+      "coordinates": {
+        "lat": 41.1904163,
+        "lng": -73.5514096
+      }
+    },
+    {
+      "name": "Queens Room",
+      "address": "36-02 Ditmars Blvd, Astoria, NY 11105",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7741458,
+        "lng": -73.9082597
+      }
+    },
+    {
+      "name": "Rego Park Wines & Liquors",
+      "address": "9724 63rd Rd, Rego Park, NY 11374",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7312708,
+        "lng": -73.8596294
+      }
+    },
+    {
+      "name": "Rosetta Wines",
+      "address": "44 Exchange Pl, New York, NY 10005",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7059513,
+        "lng": -74.0104513
+      }
+    },
+    {
+      "name": "Rubirosa Pizza & Ristorante",
+      "address": "235 Mulberry St, New York, NY 10012",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7227722,
+        "lng": -73.9963191
+      }
+    },
+    {
+      "name": "Rusty Face",
+      "address": "188 Grand St, Brooklyn, NY 11211",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.714059,
+        "lng": -73.96084859999999
+      }
+    },
+    {
+      "name": "Savvy Sips",
+      "address": "50 Main St, Irvington, NY 10533",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 41.0392756,
+        "lng": -73.86991259999999
+      }
+    },
+    {
+      "name": "ShopRite Liquors of Pearl River",
+      "address": "46 N Middletown Rd, Pearl River, NY 10965",
+      "type": "retail",
+      "coordinates": {
+        "lat": 41.0615449,
+        "lng": -74.01178829999999
+      }
+    },
+    {
+      "name": "Soho Loft Wines - Wine Dad’s",
+      "address": "1330 Willow Ave, Hoboken, NJ 07030",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7538419,
+        "lng": -74.0304558
+      }
+    },
+    {
+      "name": "Some Good Wine",
+      "address": "13 E 8th St, New York, NY 10003",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7319649,
+        "lng": -73.9951568
+      }
+    },
+    {
+      "name": "Stella’s Juice Box",
+      "address": "983 Manhattan Ave, Brooklyn, NY 11222",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7326981,
+        "lng": -73.9549188
+      }
+    },
+    {
+      "name": "Sussex Wine & Spirits",
+      "address": "300 E 42nd St, New York, NY 10017",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.749325,
+        "lng": -73.97232199999999
+      }
+    },
+    {
+      "name": "The Highwater (Hei Tiki)",
+      "address": "34-20 Broadway, Astoria, NY 11106",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7603799,
+        "lng": -73.922449
+      }
+    },
+    {
+      "name": "The Jazz Club at Aman",
+      "address": "The Crown Building, 9 W 56th St, New York, NY 10019",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7628215,
+        "lng": -73.97521449999999
+      }
+    },
+    {
+      "name": "The Marlton",
+      "address": "5 W 8th St, New York, NY 10011",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7326462,
+        "lng": -73.9968064
+      }
+    },
+    {
+      "name": "The Pomeroy",
+      "address": "36-12 Ditmars Blvd, Astoria, NY 11105",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7739611,
+        "lng": -73.9079703
+      }
+    },
+    {
+      "name": "The Wine Hut",
+      "address": "10013 US, 197 6th Ave, New York, NY 10014",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7268288,
+        "lng": -74.0037226
+      }
+    },
+    {
+      "name": "Tootles & French",
+      "address": "3615 Ditmars Blvd, Astoria, NY 11105",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7741499,
+        "lng": -73.90761719999999
+      }
+    },
+    {
+      "name": "Trapizzino",
+      "address": "144 Orchard St, New York, NY 10002",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7203593,
+        "lng": -73.98895209999999
+      }
+    },
+    {
+      "name": "Tusk Bar",
+      "address": "7 E 27th St, New York, NY 10016",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7439642,
+        "lng": -73.986983
+      }
+    },
+    {
+      "name": "Urban Wines and Spirits",
+      "address": "Corner Space, 45 1st Ave. space 1-D, New York, NY 10003",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7244861,
+        "lng": -73.98792019999999
+      }
+    },
+    {
+      "name": "Walker Hotel",
+      "address": "77 Walker St, New York, NY 10013",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7183531,
+        "lng": -74.0022231
+      }
+    },
+    {
+      "name": "West Side Liquors",
+      "address": "870 West Side Ave, Jersey City, NJ 07306",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.7298261,
+        "lng": -74.0740959
+      }
+    },
+    {
+      "name": "Wine Therapy",
+      "address": "171 Elizabeth St, New York, NY 10012",
+      "type": "retail",
+      "coordinates": {
+        "lat": 40.721051,
+        "lng": -73.99494399999999
+      }
+    },
+    {
+      "name": "Paradise Lost",
+      "address": "100 2nd Ave, New York, NY 10003",
+      "type": "on-site",
+      "coordinates": {
+        "lat": 40.7270657,
+        "lng": -73.98824979999999
+      }
+    }
+  ]
+}
