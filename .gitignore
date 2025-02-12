@@ -4,3 +4,4 @@ src/assets/
 .gitignore
 .csv
 node_modules/
+get-coords/node_modules/
