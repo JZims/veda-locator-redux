@@ -1,4 +1,6 @@
 .env
 get-coords/assets/
+src/assets/
 .gitignore
 .csv
+node_modules/
