@@ -5,3 +5,4 @@ src/assets/
 .csv
 node_modules/
 get-coords/node_modules/
+vite.config*
