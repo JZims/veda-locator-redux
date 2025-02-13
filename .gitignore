@@ -3,3 +3,4 @@ get-coords/assets/
 .gitignore
 .csv
 get-coords/node_modules/
+dist/
