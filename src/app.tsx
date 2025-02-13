@@ -32,12 +32,14 @@ import type {Marker} from '@googlemaps/markerclusterer';
 import locationData from './assets/locations.json';
 
 import {Circle} from './components/circle'
+import { InfoWindow } from './components/infowindow';
 
 type Poi = { 
   key: string, 
   location: google.maps.LatLngLiteral,
   name: string,
-  type: 'retail' | 'on-site'
+  type: 'retail' | 'on-site', 
+  address: string
 }
 
 const locations: Poi[] = locationData.locations.map(loc => ({
@@ -47,7 +49,8 @@ const locations: Poi[] = locationData.locations.map(loc => ({
     lng: loc.coordinates.lng
   },
   name: loc.name,
-  type: loc.type as 'retail' | 'on-site'
+  type: loc.type as 'retail' | 'on-site', 
+  address: loc.address
 }));
 
 const App = () => (
@@ -70,13 +73,28 @@ const PoiMarkers = (props: { pois: Poi[] }) => {
   const [markers, setMarkers] = useState<{[key: string]: Marker}>({});
   const clusterer = useRef<MarkerClusterer | null>(null);
   const [circleCenter, setCircleCenter] = useState(null)
-  const handleClick = useCallback((ev: google.maps.MapMouseEvent) => {
+  const [selectedLocation, setSelectedLocation] = useState<{
+    position: google.maps.LatLngLiteral;
+    details: any;
+  } | null>(null);
+
+  const handleClick = useCallback((ev: google.maps.MapMouseEvent, location: any) => {
     if(!map) return;
     if(!ev.latLng) return;
-    console.log('marker clicked: ', ev.latLng.toString());
-    map.panTo(ev.latLng);
+    
+    const position = {
+      lat: ev.latLng.lat(),
+      lng: ev.latLng.lng()
+    };
+    
+    map.panTo(position);
     setCircleCenter(ev.latLng);
-  });
+    setSelectedLocation({
+      position,
+      details: location
+    });
+  }, [map]);
+
   // Initialize MarkerClusterer, if the map has changed
   useEffect(() => {
     if (!map) return;
@@ -123,11 +141,18 @@ const PoiMarkers = (props: { pois: Poi[] }) => {
           position={poi.location}
           ref={marker => setMarkerRef(marker, poi.key)}
           clickable={true}
-          onClick={handleClick}
+          onClick={(ev) => handleClick(ev, poi)}
           >
             <Pin background={'#FBBC04'} glyphColor={'#000'} borderColor={'#000'} />
         </AdvancedMarker>
       ))}
+      {selectedLocation && (
+        <InfoWindow
+          position={selectedLocation.position}
+          location={selectedLocation.details}
+          onClose={() => setSelectedLocation(null)}
+        />
+      )}
     </>
   );
 };
